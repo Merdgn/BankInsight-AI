@@ -1,0 +1,28 @@
+{
+    "model_name": "BankInsight AI",
+    "algorithm": "XGBoost",
+    "decision_threshold": 0.20800741016864777,
+    "features": [
+        "age",
+        "job",
+        "marital",
+        "education",
+        "default",
+        "balance",
+        "housing",
+        "loan",
+        "pdays",
+        "previous",
+        "poutcome"
+    ],
+    "test_metrics": {
+        "Accuracy": 0.8691805816653765,
+        "Precision": 0.43400211193241817,
+        "Recall": 0.388468809073724,
+        "F1-score": 0.40997506234413966,
+        "ROC-AUC": 0.7422863994753869,
+        "Average Precision": 0.3960780000831537
+    },
+    "sklearn_version": "1.6.1",
+    "xgboost_version": "3.4.1"
+}
